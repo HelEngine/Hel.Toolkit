@@ -1,4 +1,4 @@
-name: Build
+name: Lint
 on:
   push:
     branches:
@@ -6,8 +6,8 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
-  build:
-    name: Build
+  lint:
+    name: Lint
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
