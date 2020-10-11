@@ -1,10 +1,8 @@
 name: .NET Core
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, release ]
 
 jobs:
   build:
@@ -25,14 +23,26 @@ jobs:
     # Upload build
     - uses: actions/upload-artifact@v2
       with:
-        name: dotnet-build-${{ github.run_id }}
+        name: dotnet-build
         path: ${{ github.workspace }}/**/bin/Release/**
+  
+  test:
+    needs: build
+    runs-on: ubuntu-latest
 
-    # Trigger test
-    - name: Repository Dispatch
-      uses: peter-evans/repository-dispatch@v1
+    steps:
+    # Build
+    - uses: actions/checkout@v2
+
+    - uses: actions/download-artifact@v2
       with:
-        token: ${{ secrets.REPO_ACCESS_TOKEN }}
-        event-type: dotnet-test
-        client-payload: '{"build-artifact-name" : "dotnet-build-${{ github.run_id }}" }'
+        name: dotnet-build
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: test
+      run: dotnet test --no-build --configuration Release
+
 
