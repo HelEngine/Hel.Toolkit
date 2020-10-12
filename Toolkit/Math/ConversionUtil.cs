@@ -1,6 +1,6 @@
 ﻿namespace Hel.Toolkit.Math
 {
-    public class ConversionUtil
+    public static class ConversionUtil
     {
         /// <summary>
         /// Converts boolean values to integers for math.

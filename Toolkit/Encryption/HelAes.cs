@@ -9,7 +9,7 @@ namespace Hel.Toolkit.Encryption
     /// Hel utilities for encrypting and decrypting files for the purpose of saving and loading files
     /// HelAes uses Aes256
     /// </summary>
-    public class HelAes
+    public static class HelAes
     {
         
         /// <summary>
@@ -39,7 +39,6 @@ namespace Hel.Toolkit.Encryption
             // with the specified key and IV.
             using var aesAlg = Aes.Create();
             
-            if (aesAlg == null) throw new NullReferenceException();
             aesAlg.GenerateIV();
             aesAlg.Key = Key;
 
@@ -49,13 +48,22 @@ namespace Hel.Toolkit.Encryption
             using var msEncrypt = new MemoryStream();
             msEncrypt.Write(aesAlg.IV);
 
-            using var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write);
-            using (var swEncrypt = new StreamWriter(csEncrypt))
+            CryptoStream csEncrypt = null;
+            try
             {
-                //Write all data to the stream.
+                csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write);
+                using var swEncrypt = new StreamWriter(csEncrypt);
+                csEncrypt = null;
                 swEncrypt.Write(plainText);
             }
-            
+            finally
+            {
+                csEncrypt?.Dispose();
+            }
+
+
+            msEncrypt.Flush();
+
             var encrypted = msEncrypt.ToArray();
 
             // Return the encrypted bytes from the memory stream.
@@ -83,7 +91,6 @@ namespace Hel.Toolkit.Encryption
             // Create an Aes object
             // with the specified key and IV.
             using Aes aesAlg = Aes.Create();
-            if (aesAlg == null) throw new NullReferenceException();
             aesAlg.Key = Key;
             aesAlg.IV = iv;
 
@@ -92,12 +99,20 @@ namespace Hel.Toolkit.Encryption
 
             // Create the streams used for decryption.
             using var msDecrypt = new MemoryStream(cipherText);
-            using var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read);
-            using var srDecrypt = new StreamReader(csDecrypt);
-                
-            // Read the decrypted bytes from the decrypting stream
-            // and place them in a string.
-            plaintext = srDecrypt.ReadToEnd();
+            CryptoStream csDecrypt = null;
+
+            try
+            {
+                csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read);
+                using var srDecrypt = new StreamReader(csDecrypt);
+
+                csDecrypt = null;
+                plaintext = srDecrypt.ReadToEnd();
+            }
+            finally
+            {
+                csDecrypt?.Dispose();
+            }
 
             return plaintext;
         }
