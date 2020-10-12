@@ -10,9 +10,12 @@
     <PropertyGroup>
         <PackageId>Hel.Toolkit</PackageId>
         <PackageTags>hel;hel.toolkit; core;.net</PackageTags>
-        <Version>0.5.2</Version>
+        <Version>0.5.21</Version>
         <Authors>Hel_Engine</Authors>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
 </Project>
