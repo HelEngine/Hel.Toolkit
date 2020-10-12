@@ -1,5 +1,8 @@
 ﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Security.Cryptography;
+using Hel.Toolkit.Encryption;
+using Newtonsoft.Json;
 
 namespace Hel.Toolkit.Serializer
 {
@@ -13,31 +16,31 @@ namespace Hel.Toolkit.Serializer
         /// </summary>
         /// <param name="arrBytes">File data</param>
         /// <returns></returns>
-        public static object ByteArrayToObject(byte[] arrBytes)
+        public static T ByteArrayToObject<T>(byte[] arrBytes, byte[] key)
         {
-            using var memStream = new MemoryStream();
-            var binForm = new BinaryFormatter();
-            
-            memStream.Write(arrBytes, 0, arrBytes.Length);
-            memStream.Seek(0, SeekOrigin.Begin);
-            
-            var obj = binForm.Deserialize(memStream);
-            
-            return obj;
+            // Decrypt the bytes to a string.
+            var json = HelAes.DecryptStringFromBytes(arrBytes, key);
+
+            return JsonConvert.DeserializeObject<T>(json, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.Objects
+            });
         }
 
         /// <summary>
-        /// Serialize an object into a byte array that can be written to a file
+        /// Serialize an object into an encrypted json string
         /// </summary>
         /// <param name="obj">Object to serialize</param>
         /// <returns></returns>
-        public static byte[] ObjectToByteArray(object obj)
+        public static byte[] ObjectToByteArray(object obj, byte[] key)
         {
-            var bf = new BinaryFormatter();
-            using var ms = new MemoryStream();
-            bf.Serialize(ms, obj);
-            
-            return ms.ToArray();
+            var serializeObject = JsonConvert.SerializeObject(obj, Formatting.None, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.Objects,
+                TypeNameAssemblyFormatHandling = TypeNameAssemblyFormatHandling.Simple
+            });
+
+            return HelAes.EncryptStringToBytes(serializeObject, key);
         }
     }
 }
