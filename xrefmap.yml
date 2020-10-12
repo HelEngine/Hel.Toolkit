@@ -1,0 +1,393 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Hel.Toolkit.DataStructure.Arrays
+  name: Hel.Toolkit.DataStructure.Arrays
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.html
+  commentId: N:Hel.Toolkit.DataStructure.Arrays
+  fullName: Hel.Toolkit.DataStructure.Arrays
+  nameWithType: Hel.Toolkit.DataStructure.Arrays
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1
+  name: DynamicArray<TDataType>
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html
+  commentId: T:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1
+  name.vb: DynamicArray(Of TDataType)
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType)
+  nameWithType: DynamicArray<TDataType>
+  nameWithType.vb: DynamicArray(Of TDataType)
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.#ctor(System.Int32)
+  name: DynamicArray(Int32)
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1__ctor_System_Int32_
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.#ctor(System.Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.DynamicArray(System.Int32)
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).DynamicArray(System.Int32)
+  nameWithType: DynamicArray<TDataType>.DynamicArray(Int32)
+  nameWithType.vb: DynamicArray(Of TDataType).DynamicArray(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.#ctor*
+  name: DynamicArray
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1__ctor_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.#ctor
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.DynamicArray
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).DynamicArray
+  nameWithType: DynamicArray<TDataType>.DynamicArray
+  nameWithType.vb: DynamicArray(Of TDataType).DynamicArray
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Clear
+  name: Clear()
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Clear
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Clear
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Clear()
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Clear()
+  nameWithType: DynamicArray<TDataType>.Clear()
+  nameWithType.vb: DynamicArray(Of TDataType).Clear()
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Clear*
+  name: Clear
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Clear_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Clear
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Clear
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Clear
+  nameWithType: DynamicArray<TDataType>.Clear
+  nameWithType.vb: DynamicArray(Of TDataType).Clear
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Empty
+  name: Empty()
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Empty
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Empty
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Empty()
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Empty()
+  nameWithType: DynamicArray<TDataType>.Empty()
+  nameWithType.vb: DynamicArray(Of TDataType).Empty()
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Empty*
+  name: Empty
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Empty_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Empty
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Empty
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Empty
+  nameWithType: DynamicArray<TDataType>.Empty
+  nameWithType.vb: DynamicArray(Of TDataType).Empty
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Item(System.Int32)
+  name: Item[Int32]
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Item_System_Int32_
+  commentId: P:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Item[System.Int32]
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Item(System.Int32)
+  nameWithType: DynamicArray<TDataType>.Item[Int32]
+  nameWithType.vb: DynamicArray(Of TDataType).Item(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Item*
+  name: Item
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Item_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Item
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Item
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Item
+  nameWithType: DynamicArray<TDataType>.Item
+  nameWithType.vb: DynamicArray(Of TDataType).Item
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.ReducePastIndex(System.Int32)
+  name: ReducePastIndex(Int32)
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_ReducePastIndex_System_Int32_
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.ReducePastIndex(System.Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.ReducePastIndex(System.Int32)
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).ReducePastIndex(System.Int32)
+  nameWithType: DynamicArray<TDataType>.ReducePastIndex(Int32)
+  nameWithType.vb: DynamicArray(Of TDataType).ReducePastIndex(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.ReducePastIndex*
+  name: ReducePastIndex
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_ReducePastIndex_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.ReducePastIndex
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.ReducePastIndex
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).ReducePastIndex
+  nameWithType: DynamicArray<TDataType>.ReducePastIndex
+  nameWithType.vb: DynamicArray(Of TDataType).ReducePastIndex
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Size
+  name: Size
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Size
+  commentId: P:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Size
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Size
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Size
+  nameWithType: DynamicArray<TDataType>.Size
+  nameWithType.vb: DynamicArray(Of TDataType).Size
+- uid: Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Size*
+  name: Size
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.DynamicArray-1.html#Hel_Toolkit_DataStructure_Arrays_DynamicArray_1_Size_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.DynamicArray`1.Size
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.DynamicArray<TDataType>.Size
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.DynamicArray(Of TDataType).Size
+  nameWithType: DynamicArray<TDataType>.Size
+  nameWithType.vb: DynamicArray(Of TDataType).Size
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1
+  name: ManagedArray<TDataType>
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html
+  commentId: T:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1
+  name.vb: ManagedArray(Of TDataType)
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType)
+  nameWithType: ManagedArray<TDataType>
+  nameWithType.vb: ManagedArray(Of TDataType)
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.#ctor(System.Int32)
+  name: ManagedArray(Int32)
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1__ctor_System_Int32_
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.#ctor(System.Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.ManagedArray(System.Int32)
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).ManagedArray(System.Int32)
+  nameWithType: ManagedArray<TDataType>.ManagedArray(Int32)
+  nameWithType.vb: ManagedArray(Of TDataType).ManagedArray(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.#ctor*
+  name: ManagedArray
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1__ctor_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.#ctor
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.ManagedArray
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).ManagedArray
+  nameWithType: ManagedArray<TDataType>.ManagedArray
+  nameWithType.vb: ManagedArray(Of TDataType).ManagedArray
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Add(`0)
+  name: Add(TDataType)
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Add__0_
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Add(`0)
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Add(TDataType)
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Add(TDataType)
+  nameWithType: ManagedArray<TDataType>.Add(TDataType)
+  nameWithType.vb: ManagedArray(Of TDataType).Add(TDataType)
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Add*
+  name: Add
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Add_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Add
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Add
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Add
+  nameWithType: ManagedArray<TDataType>.Add
+  nameWithType.vb: ManagedArray(Of TDataType).Add
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Clear
+  name: Clear()
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Clear
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Clear
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Clear()
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Clear()
+  nameWithType: ManagedArray<TDataType>.Clear()
+  nameWithType.vb: ManagedArray(Of TDataType).Clear()
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Clear*
+  name: Clear
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Clear_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Clear
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Clear
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Clear
+  nameWithType: ManagedArray<TDataType>.Clear
+  nameWithType.vb: ManagedArray(Of TDataType).Clear
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.DataCount
+  name: DataCount
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_DataCount
+  commentId: P:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.DataCount
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.DataCount
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).DataCount
+  nameWithType: ManagedArray<TDataType>.DataCount
+  nameWithType.vb: ManagedArray(Of TDataType).DataCount
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.DataCount*
+  name: DataCount
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_DataCount_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.DataCount
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.DataCount
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).DataCount
+  nameWithType: ManagedArray<TDataType>.DataCount
+  nameWithType.vb: ManagedArray(Of TDataType).DataCount
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.GetNonNullIndexes
+  name: GetNonNullIndexes()
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_GetNonNullIndexes
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.GetNonNullIndexes
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.GetNonNullIndexes()
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).GetNonNullIndexes()
+  nameWithType: ManagedArray<TDataType>.GetNonNullIndexes()
+  nameWithType.vb: ManagedArray(Of TDataType).GetNonNullIndexes()
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.GetNonNullIndexes*
+  name: GetNonNullIndexes
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_GetNonNullIndexes_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.GetNonNullIndexes
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.GetNonNullIndexes
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).GetNonNullIndexes
+  nameWithType: ManagedArray<TDataType>.GetNonNullIndexes
+  nameWithType.vb: ManagedArray(Of TDataType).GetNonNullIndexes
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Item(System.Int32)
+  name: Item[Int32]
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Item_System_Int32_
+  commentId: P:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Item[System.Int32]
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Item(System.Int32)
+  nameWithType: ManagedArray<TDataType>.Item[Int32]
+  nameWithType.vb: ManagedArray(Of TDataType).Item(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Item*
+  name: Item
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Item_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Item
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Item
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Item
+  nameWithType: ManagedArray<TDataType>.Item
+  nameWithType.vb: ManagedArray(Of TDataType).Item
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Remove(System.Int32)
+  name: Remove(Int32)
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Remove_System_Int32_
+  commentId: M:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Remove(System.Int32)
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Remove(System.Int32)
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Remove(System.Int32)
+  nameWithType: ManagedArray<TDataType>.Remove(Int32)
+  nameWithType.vb: ManagedArray(Of TDataType).Remove(Int32)
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Remove*
+  name: Remove
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Remove_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Remove
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Remove
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Remove
+  nameWithType: ManagedArray<TDataType>.Remove
+  nameWithType.vb: ManagedArray(Of TDataType).Remove
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Size
+  name: Size
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Size
+  commentId: P:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Size
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Size
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Size
+  nameWithType: ManagedArray<TDataType>.Size
+  nameWithType.vb: ManagedArray(Of TDataType).Size
+- uid: Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Size*
+  name: Size
+  href: hel-api/Hel.Toolkit.DataStructure.Arrays.ManagedArray-1.html#Hel_Toolkit_DataStructure_Arrays_ManagedArray_1_Size_
+  commentId: Overload:Hel.Toolkit.DataStructure.Arrays.ManagedArray`1.Size
+  isSpec: "True"
+  fullName: Hel.Toolkit.DataStructure.Arrays.ManagedArray<TDataType>.Size
+  fullName.vb: Hel.Toolkit.DataStructure.Arrays.ManagedArray(Of TDataType).Size
+  nameWithType: ManagedArray<TDataType>.Size
+  nameWithType.vb: ManagedArray(Of TDataType).Size
+- uid: Hel.Toolkit.Encryption
+  name: Hel.Toolkit.Encryption
+  href: hel-api/Hel.Toolkit.Encryption.html
+  commentId: N:Hel.Toolkit.Encryption
+  fullName: Hel.Toolkit.Encryption
+  nameWithType: Hel.Toolkit.Encryption
+- uid: Hel.Toolkit.Encryption.HelAes
+  name: HelAes
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html
+  commentId: T:Hel.Toolkit.Encryption.HelAes
+  fullName: Hel.Toolkit.Encryption.HelAes
+  nameWithType: HelAes
+- uid: Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes(System.Byte[],System.Byte[])
+  name: DecryptStringFromBytes(Byte[], Byte[])
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_DecryptStringFromBytes_System_Byte___System_Byte___
+  commentId: M:Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes(System.Byte[],System.Byte[])
+  name.vb: DecryptStringFromBytes(Byte(), Byte())
+  fullName: Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes(System.Byte[], System.Byte[])
+  fullName.vb: Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes(System.Byte(), System.Byte())
+  nameWithType: HelAes.DecryptStringFromBytes(Byte[], Byte[])
+  nameWithType.vb: HelAes.DecryptStringFromBytes(Byte(), Byte())
+- uid: Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes*
+  name: DecryptStringFromBytes
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_DecryptStringFromBytes_
+  commentId: Overload:Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes
+  isSpec: "True"
+  fullName: Hel.Toolkit.Encryption.HelAes.DecryptStringFromBytes
+  nameWithType: HelAes.DecryptStringFromBytes
+- uid: Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes(System.String,System.Byte[])
+  name: EncryptStringToBytes(String, Byte[])
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_EncryptStringToBytes_System_String_System_Byte___
+  commentId: M:Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes(System.String,System.Byte[])
+  name.vb: EncryptStringToBytes(String, Byte())
+  fullName: Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes(System.String, System.Byte[])
+  fullName.vb: Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes(System.String, System.Byte())
+  nameWithType: HelAes.EncryptStringToBytes(String, Byte[])
+  nameWithType.vb: HelAes.EncryptStringToBytes(String, Byte())
+- uid: Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes*
+  name: EncryptStringToBytes
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_EncryptStringToBytes_
+  commentId: Overload:Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes
+  isSpec: "True"
+  fullName: Hel.Toolkit.Encryption.HelAes.EncryptStringToBytes
+  nameWithType: HelAes.EncryptStringToBytes
+- uid: Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString(System.String)
+  name: GenerateKeyFromString(String)
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_GenerateKeyFromString_System_String_
+  commentId: M:Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString(System.String)
+  fullName: Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString(System.String)
+  nameWithType: HelAes.GenerateKeyFromString(String)
+- uid: Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString*
+  name: GenerateKeyFromString
+  href: hel-api/Hel.Toolkit.Encryption.HelAes.html#Hel_Toolkit_Encryption_HelAes_GenerateKeyFromString_
+  commentId: Overload:Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString
+  isSpec: "True"
+  fullName: Hel.Toolkit.Encryption.HelAes.GenerateKeyFromString
+  nameWithType: HelAes.GenerateKeyFromString
+- uid: Hel.Toolkit.Math
+  name: Hel.Toolkit.Math
+  href: hel-api/Hel.Toolkit.Math.html
+  commentId: N:Hel.Toolkit.Math
+  fullName: Hel.Toolkit.Math
+  nameWithType: Hel.Toolkit.Math
+- uid: Hel.Toolkit.Math.ConversionUtil
+  name: ConversionUtil
+  href: hel-api/Hel.Toolkit.Math.ConversionUtil.html
+  commentId: T:Hel.Toolkit.Math.ConversionUtil
+  fullName: Hel.Toolkit.Math.ConversionUtil
+  nameWithType: ConversionUtil
+- uid: Hel.Toolkit.Math.ConversionUtil.BoolToInt(System.Boolean)
+  name: BoolToInt(Boolean)
+  href: hel-api/Hel.Toolkit.Math.ConversionUtil.html#Hel_Toolkit_Math_ConversionUtil_BoolToInt_System_Boolean_
+  commentId: M:Hel.Toolkit.Math.ConversionUtil.BoolToInt(System.Boolean)
+  fullName: Hel.Toolkit.Math.ConversionUtil.BoolToInt(System.Boolean)
+  nameWithType: ConversionUtil.BoolToInt(Boolean)
+- uid: Hel.Toolkit.Math.ConversionUtil.BoolToInt*
+  name: BoolToInt
+  href: hel-api/Hel.Toolkit.Math.ConversionUtil.html#Hel_Toolkit_Math_ConversionUtil_BoolToInt_
+  commentId: Overload:Hel.Toolkit.Math.ConversionUtil.BoolToInt
+  isSpec: "True"
+  fullName: Hel.Toolkit.Math.ConversionUtil.BoolToInt
+  nameWithType: ConversionUtil.BoolToInt
+- uid: Hel.Toolkit.Serializer
+  name: Hel.Toolkit.Serializer
+  href: hel-api/Hel.Toolkit.Serializer.html
+  commentId: N:Hel.Toolkit.Serializer
+  fullName: Hel.Toolkit.Serializer
+  nameWithType: Hel.Toolkit.Serializer
+- uid: Hel.Toolkit.Serializer.ByteSerializer
+  name: ByteSerializer
+  href: hel-api/Hel.Toolkit.Serializer.ByteSerializer.html
+  commentId: T:Hel.Toolkit.Serializer.ByteSerializer
+  fullName: Hel.Toolkit.Serializer.ByteSerializer
+  nameWithType: ByteSerializer
+- uid: Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject*
+  name: ByteArrayToObject
+  href: hel-api/Hel.Toolkit.Serializer.ByteSerializer.html#Hel_Toolkit_Serializer_ByteSerializer_ByteArrayToObject_
+  commentId: Overload:Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject
+  isSpec: "True"
+  fullName: Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject
+  nameWithType: ByteSerializer.ByteArrayToObject
+- uid: Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject``1(System.Byte[],System.Byte[])
+  name: ByteArrayToObject<T>(Byte[], Byte[])
+  href: hel-api/Hel.Toolkit.Serializer.ByteSerializer.html#Hel_Toolkit_Serializer_ByteSerializer_ByteArrayToObject__1_System_Byte___System_Byte___
+  commentId: M:Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject``1(System.Byte[],System.Byte[])
+  name.vb: ByteArrayToObject(Of T)(Byte(), Byte())
+  fullName: Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject<T>(System.Byte[], System.Byte[])
+  fullName.vb: Hel.Toolkit.Serializer.ByteSerializer.ByteArrayToObject(Of T)(System.Byte(), System.Byte())
+  nameWithType: ByteSerializer.ByteArrayToObject<T>(Byte[], Byte[])
+  nameWithType.vb: ByteSerializer.ByteArrayToObject(Of T)(Byte(), Byte())
+- uid: Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray(System.Object,System.Byte[])
+  name: ObjectToByteArray(Object, Byte[])
+  href: hel-api/Hel.Toolkit.Serializer.ByteSerializer.html#Hel_Toolkit_Serializer_ByteSerializer_ObjectToByteArray_System_Object_System_Byte___
+  commentId: M:Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray(System.Object,System.Byte[])
+  name.vb: ObjectToByteArray(Object, Byte())
+  fullName: Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray(System.Object, System.Byte[])
+  fullName.vb: Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray(System.Object, System.Byte())
+  nameWithType: ByteSerializer.ObjectToByteArray(Object, Byte[])
+  nameWithType.vb: ByteSerializer.ObjectToByteArray(Object, Byte())
+- uid: Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray*
+  name: ObjectToByteArray
+  href: hel-api/Hel.Toolkit.Serializer.ByteSerializer.html#Hel_Toolkit_Serializer_ByteSerializer_ObjectToByteArray_
+  commentId: Overload:Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray
+  isSpec: "True"
+  fullName: Hel.Toolkit.Serializer.ByteSerializer.ObjectToByteArray
+  nameWithType: ByteSerializer.ObjectToByteArray
