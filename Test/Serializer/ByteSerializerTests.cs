@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Cryptography;
+using Hel.Toolkit.Encryption;
 using Hel.Toolkit.Serializer;
 using NUnit.Framework;
 
@@ -9,9 +11,10 @@ namespace Test.Serializer
     {
 
         private byte[] _serializedBytes;
-        private object _deserializedObject;
-        private ObjectSerializeModelTest _castedModel;
+        private ObjectSerializeModelTest _deserializedModel;
         private ObjectSerializeModelTest _originalModel;
+
+        private byte[] key;
 
         [SetUp]
         public void Setup()
@@ -21,30 +24,27 @@ namespace Test.Serializer
                 TestInt = 5565,
                 TestString = "Hello"
             };
+            
+            key = HelAes.GenerateKeyFromString("This is totally a kool passwurd");
         }
         
         [Test, Order(1)]
         public void ObjectSerializesTest()
         {
-            Assert.DoesNotThrow(() => _serializedBytes = ByteSerializer.ObjectToByteArray(_originalModel));
+            Assert.DoesNotThrow(() => _serializedBytes = ByteSerializer.ObjectToByteArray(_originalModel, key));
         }
 
         [Test, Order(2)]
         public void ObjectDeserializesTest()
         {
-            Assert.DoesNotThrow(() => _deserializedObject = ByteSerializer.ByteArrayToObject(_serializedBytes));
+            Assert.DoesNotThrow(() => _deserializedModel = ByteSerializer.ByteArrayToObject<ObjectSerializeModelTest>(_serializedBytes, key));
+            Assert.That(_deserializedModel, Is.Not.Null);
         }
-
+        
         [Test, Order(3)]
-        public void DeserializedObjectCasts()
-        {
-            Assert.DoesNotThrow(() => _castedModel = (ObjectSerializeModelTest) _deserializedObject);
-        }
-
-        [Test, Order(4)]
         public void DeserializedObjectEquatable()
         {
-            Assert.That(_castedModel, Is.EqualTo(_originalModel));
+            Assert.That(_deserializedModel, Is.EqualTo(_originalModel));
         }
         
         [Serializable]
