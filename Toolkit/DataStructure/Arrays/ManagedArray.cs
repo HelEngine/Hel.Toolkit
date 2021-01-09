@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Hel.Toolkit.DataStructure.Arrays
 {
@@ -39,7 +40,14 @@ namespace Hel.Toolkit.DataStructure.Arrays
         {
             _array = new TDataType[capacity];
             _size = capacity;
-            _allocatedIds = new HashSet<int>(capacity);
+            
+            _allocatedIds = new HashSet<int>
+            (
+#if NETSTANDARD2_1
+                capacity 
+#endif
+            );
+            
             _freeIds = new Queue<int>(capacity);
             for (var i = 0; i < 256; i++)
             {
@@ -85,12 +93,21 @@ namespace Hel.Toolkit.DataStructure.Arrays
         /// <returns>Available ID</returns>
         private int GenerateId()
         {
+            
+#if NETSTANDARD2_0
+            // Free id available -> return 
+            if (_freeIds.Count > 0)
+            {
+                return _freeIds.Dequeue();
+            }      
+#else 
             // Free id available -> return 
             if (_freeIds.TryDequeue(out var id))
             {
                 return id;
             }
-            
+#endif
+
             // No free ID -> Expand ids and create more free ids
             ExpandArray();
             return _freeIds.Dequeue();

@@ -46,8 +46,8 @@ namespace Hel.Toolkit.Encryption
             var encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
 
             using var msEncrypt = new MemoryStream();
-            msEncrypt.Write(aesAlg.IV);
-
+            msEncrypt.Write(aesAlg.IV,0 , aesAlg.IV.Length);
+            
             CryptoStream csEncrypt = null;
             try
             {
